@@ -1,1 +1,2 @@
-# PSD-2026-2515061092
+# Judul Program : Pendataan Siswa Menggunakan List 1 Dimensi pada Python
+# Deskripsi Singkat
