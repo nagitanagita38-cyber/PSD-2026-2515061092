@@ -95,7 +95,7 @@ Program pertama kali menampilkan menu:
 - Hapus data siswa
   
 - Keluar
-- 
+
 Yang artinya program siap dipakai dan nunggu input user.
 
 User beberapa kali pilih menu 1, jadi dia masukin nama siswa satu per satu:
