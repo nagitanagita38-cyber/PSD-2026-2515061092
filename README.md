@@ -86,7 +86,7 @@ Baris 49-50 - menjalankan fungsi main() saat program dijalankan
 
 # Output Program
 <img width="455" height="1941" alt="merged (3)" src="https://github.com/user-attachments/assets/71f17ad8-bd0b-4bcc-bb57-6d5f9c174435" />
-Program pertama kali nmenampilkan menu:
+Program pertama kali menampilkan menu:
 
 - Input data siswa
   
