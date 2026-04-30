@@ -63,3 +63,4 @@ Hasil akhir menjadi: 2100, 1900, 850, 300, 250.
 Ini menunjukkan bahwa proses pengurutan berjalan dengan benar tanpa error.
 
 # Link Youtube
+https://youtu.be/W6ve3JcwhQY?si=7AT6LDGYK2BOB1cw
