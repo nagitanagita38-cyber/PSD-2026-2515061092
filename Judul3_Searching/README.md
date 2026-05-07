@@ -148,3 +148,4 @@ main() untuk menjalankan fungsi utama program.
 - Karena posisi indeks berada pada rentang 0–4, maka lokasi barang berada di Lemari.
 
 # Link Youtube
+https://youtu.be/VLLjN-uZ958?si=GlYOrXMYds9v85-X
