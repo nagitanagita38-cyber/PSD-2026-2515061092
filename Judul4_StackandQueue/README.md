@@ -140,3 +140,33 @@ Baris 77: main() - Menjalankan function main().
 
 ## Output
 <img width="213" height="923" alt="Output StackArray" src="https://github.com/user-attachments/assets/5c436f28-f8d4-404b-9824-dd25087d373a" />
+
+Output tersebut menunjukkan proses penggunaan program Stack berbasis Array untuk menyimpan riwayat edit. Saat program dijalankan, sistem menampilkan menu utama yang berisi pilihan tambah edit, mengurungkan edit, lihat edit terakhir, tampilkan riwayat edit, dan keluar program. Pada awalnya pengguna memilih menu 1 yaitu tambah edit. Program meminta pengguna memasukkan jenis edit, lalu pengguna memasukkan “filter”. Setelah itu program menampilkan pesan “Edit filter ditambahkan”, artinya data berhasil dimasukkan ke dalam stack. Selanjutnya pengguna kembali memilih menu 1 dan memasukkan jenis edit “elemen”. Program kemudian menyimpan data tersebut ke dalam stack dan menampilkan pesan “Edit elemen ditambahkan”. Kemudian pengguna kembali memilih menu tambah edit dan memasukkan “foto”. Program kembali menambahkan data tersebut ke stack dan menampilkan pesan “Edit foto ditambahkan”. Setelah itu pengguna menambahkan lagi jenis edit “teks”. Data “teks” menjadi data terakhir yang masuk sehingga berada di posisi paling atas stack. Program menampilkan pesan “Edit teks ditambahkan”. Karena stack menggunakan prinsip LIFO (Last In First Out), maka data yang terakhir masuk akan menjadi data pertama yang keluar. Berikut urutan isi stack setelah semua data ditambahkan:
+
+- teks
+
+- foto
+
+- elemen
+
+- filter
+
+Lalu pengguna memilih menu 2 yaitu mengurungkan edit. Program menghapus data paling atas yaitu “teks” dan menampilkan pesan “Mengurungkan edit teks berhasil”. Ini menunjukkan operasi pop pada stack. Setelah data teks dihapus dan isi stack menjadi:
+
+- foto
+
+- elemen
+
+- filter
+  
+Kemudian pengguna memilih menu 3 yaitu lihat edit terakhir. Program menampilkan “Edit terakhir: foto” karena setelah teks dihapus, data paling atas sekarang adalah “foto”. Selanjutnya pengguna memilih menu 4 yaitu tampilkan riwayat edit. Program menampilkan seluruh isi stack dari yang terbaru sampai yang terlama:
+
+- foto
+  
+- elemen
+
+- filter
+
+Urutan tersebut sesuai dengan konsep stack, yaitu data paling atas ditampilkan lebih dahulu. Terakhir pengguna memilih menu 5 untuk keluar dari program. Program kemudian menampilkan pesan “Program selesai”, yang berarti program telah dihentikan.
+
+## Link Youtube
