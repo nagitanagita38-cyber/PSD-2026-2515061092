@@ -170,3 +170,4 @@ Kemudian pengguna memilih menu 3 yaitu lihat edit terakhir. Program menampilkan 
 Urutan tersebut sesuai dengan konsep stack, yaitu data paling atas ditampilkan lebih dahulu. Terakhir pengguna memilih menu 5 untuk keluar dari program. Program kemudian menampilkan pesan “Program selesai”, yang berarti program telah dihentikan.
 
 ## Link Youtube
+https://youtu.be/rmE545ysENE?si=HJwyN0Thvi_2P6s9
