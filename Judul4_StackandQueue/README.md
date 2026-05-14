@@ -17,15 +17,15 @@ Baris 4: self.st = [None] * self.MAX - Membuat array/list kosong berukuran MAX.
 
 Baris 5: self.top_idx = -1 - Menandakan stack masih kosong karena belum ada data.
 
-Baris 7: def is_empty(self): - Method untuk mengecek apakah stack kosong.
+Baris 7: def is_empty(self): - untuk mengecek apakah stack kosong.
 
 Baris 8: return self.top_idx == -1 - Mengembalikan nilai True jika stack kosong.
 
-Baris 10: def is_full(self): - Method untuk mengecek apakah stack penuh.
+Baris 10: def is_full(self): - untuk mengecek apakah stack penuh.
 
 Baris 11: return self.top_idx == self.MAX - 1 - Jika indeks paling atas sudah mencapai kapasitas maksimum, maka stack penuh.
 
-Baris 13: def push(self, x): - Method untuk menambahkan data ke stack.
+Baris 13: def push(self, x): - untuk menambahkan data ke stack.
 
 Baris 14: if self.is_full(): - Mengecek apakah stack penuh.
 
@@ -51,7 +51,7 @@ Baris 25: print(f"Mengurungkan edit {self.st[self.top_idx]} berhasil") - Menampi
 
 Baris 26: self.top_idx -= 1 - Mengurangi indeks teratas sehingga data dianggap terhapus.
 
-Baris 28: def peek(self): - Method untuk melihat data paling atas tanpa menghapusnya.
+Baris 28: def peek(self): - untuk melihat data paling atas tanpa menghapusnya.
 
 Baris 29: if self.is_empty(): - Mengecek apakah stack kosong.
 
@@ -61,7 +61,7 @@ Baris 31: return - Menghentikan proses.
 
 Baris 32: print(f"Edit terakhir: {self.st[self.top_idx]}") - Menampilkan edit terakhir pada stack.
 
-Baris 34: def display(self): - Method untuk menampilkan seluruh isi stack.
+Baris 34: def display(self): - untuk menampilkan seluruh isi stack.
 
 Baris 35: if self.is_empty(): - Mengecek apakah stack kosong.
 
