@@ -89,7 +89,7 @@ Baris 47 def main(): digunakan untuk membuat fungsi utama program.
 
 Baris 48 hashmap = HashMapSeparateChaining() digunakan untuk membuat objek Hash Map. 
 
-Baris 49 sampai 55 hashmap.insert(...) digunakan untuk menambahkan data barang ke dalam hash table. 
+Baris 49 sampai 55 hashmap.insert() digunakan untuk menambahkan data barang ke dalam hash table. 
 
 Baris 56 hashmap.display() digunakan untuk menampilkan seluruh isi hash table.
 
@@ -105,7 +105,9 @@ Baris 64 hasil = hashmap.search(kode_barang) digunakan untuk mencari data berdas
 
 Baris 66 if hasil is not None: digunakan untuk mengecek apakah data ditemukan. 
 
-Baris 67 print(f"\nKode Barang : {hasil.key}") digunakan untuk menampilkan kode barang. Baris 68 print(f"\nNama Barang : {hasil.value}") digunakan untuk menampilkan nama barang.
+Baris 67 print(f"\nKode Barang : {hasil.key}") digunakan untuk menampilkan kode barang. 
+
+Baris 68 print(f"\nNama Barang : {hasil.value}") digunakan untuk menampilkan nama barang.
 
 Baris 69 else: digunakan jika data tidak ditemukan. 
 
