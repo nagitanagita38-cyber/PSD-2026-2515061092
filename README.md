@@ -5,8 +5,7 @@
 Program ini digunakan untuk menyimpan dan mencari data barang berdasarkan kode barang menggunakan struktur data Hash Map. Setiap barang memiliki kode unik sebagai key dan nama barang sebagai value. Pengguna dapat memasukkan kode barang untuk mencari informasi barang yang tersimpan di dalam hash table. Algoritma yang diterapkan adalah Hashing dengan Separate Chaining. Teknik hashing digunakan untuk menentukan lokasi penyimpanan data pada tabel menggunakan fungsi hash. Jika terjadi collision (dua data memiliki indeks yang sama), maka data disimpan dalam bentuk linked list pada indeks tersebut. Metode ini memungkinkan pencarian data tetap berjalan dengan efisien meskipun terjadi collision.
 
 ## Source Code
-<img width="394" height="859" alt="Screenshot 2026-06-08 180411" src="https://github.com/user-attachments/assets/78b22164-fbf2-47f0-8bd3-a5b46d78d010" />
-Kalau benar-benar per baris dalam bentuk paragraf, bisa ditulis seperti ini:
+<img width="404" height="846" alt="Screenshot 2026-06-08 185940" src="https://github.com/user-attachments/assets/43bd8f6c-006e-448f-8e30-31d7dee96e81" />
 
 Baris 1 class Node: digunakan untuk mendefinisikan kelas Node yang berfungsi sebagai elemen pada linked list. 
 
@@ -117,4 +116,4 @@ Baris 72 if __name__ == "__main__": digunakan untuk memastikan program dijalanka
 Baris 73 main() digunakan untuk memanggil fungsi utama sehingga program dapat dieksekusi.
 
 ## Output
-<img width="646" height="194" alt="Screenshot 2026-06-08 185546" src="https://github.com/user-attachments/assets/f74b8561-6c20-46dc-aa17-6129c9befb77" />
+<img width="645" height="263" alt="Screenshot 2026-06-08 190102" src="https://github.com/user-attachments/assets/b16f9286-0ae8-4297-98c0-bdea552608f1" />
