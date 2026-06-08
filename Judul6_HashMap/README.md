@@ -121,3 +121,4 @@ Baris 73 main() digunakan untuk memanggil fungsi utama sehingga program dapat di
 Output program menunjukkan bahwa data barang berhasil disimpan ke dalam Hash Map menggunakan metode Separate Chaining. Saat pengguna memasukkan kode barang 111, 121, dan 113, program berhasil menemukan data dan menampilkan nama barang yang sesuai, yaitu Canvas, Kuas, dan Cat Minyak. Ketika pengguna memasukkan kode barang 222, program menampilkan pesan bahwa barang 222 tidak ditemukan karena data tersebut tidak ada di dalam hash table. Hal ini membuktikan bahwa fungsi pencarian berjalan dengan baik baik untuk data yang ada maupun yang tidak ada.
 
 ## Link Youtube
+
