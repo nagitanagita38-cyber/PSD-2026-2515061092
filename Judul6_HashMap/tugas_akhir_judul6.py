@@ -67,7 +67,7 @@ def main():
             print(f"\nKode Barang : {hasil.key}")
             print(f"\nNama Barang : {hasil.value}")
         else:
-            print("\nBarang dengan kode {kode_barang} tidak ditemukan.")
+            print(f"\nBarang dengan kode {kode_barang} tidak ditemukan.")
 
 if __name__ == "__main__":
     main()
